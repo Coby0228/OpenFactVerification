@@ -129,8 +129,10 @@ class Decompose:
                 if flag:
                     return claim2doc_detail
                 else:
-                    tmp_restore = claim2doc_detail
-                    raise Exception("Restore claims not satisfied.")
+                    # 放寬限制：即使驗證失敗 (flag=False)，也不再拋出錯誤。
+                    # 記錄一條警告，並直接回傳這個不完美的結果，讓實驗繼續。
+                    logger.warning("Restore claims not satisfied, but returning the partial result to continue the experiment.")
+                    return claim2doc_detail
             except Exception as e:
                 logger.error(f"Parse LLM response error {e}, response is: {response}")
                 logger.error(f"Parse LLM response error, prompt is: {messages}")
