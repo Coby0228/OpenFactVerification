@@ -17,7 +17,7 @@ def model2client(model_name: str):
         return GPTClient
     elif model_name.startswith("claude"):
         return ClaudeClient
-    elif model_name.startswith("vicuna"):
+    elif model_name.startswith("vicuna") or model_name.startswith("qwen"):
         return LocalOpenAIClient
     else:
         raise ValueError(f"Model {model_name} not supported.")

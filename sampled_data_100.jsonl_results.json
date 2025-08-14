@@ -1,0 +1,170 @@
+{
+    "metrics": {
+        "precision": 0.7972972972972973,
+        "recall": 0.8428571428571429,
+        "f1_score": 0.8194444444444444,
+        "true_positives": 59,
+        "false_positives": 15,
+        "true_negatives": 15,
+        "false_negatives": 11,
+        "total_samples": 100
+    },
+    "error_details": [
+        {
+            "claim": "位於臺灣高雄市鼓山區的哈瑪星臺灣鐵道館不具有任何方面的唯一性。",
+            "ground_truth": false,
+            "prediction": true,
+            "factuality_score": 1.0
+        },
+        {
+            "claim": "工業設計構應考量人體工學及其特徵。",
+            "ground_truth": true,
+            "prediction": false,
+            "factuality_score": 0
+        },
+        {
+            "claim": "高建身爲韓國國務總理，負責統籌國會議員的工作 ， 並負責執行總統的決策 。",
+            "ground_truth": true,
+            "prediction": false,
+            "factuality_score": 0.42857142857142855
+        },
+        {
+            "claim": "紅四軍軍長曾爲許世友擔任",
+            "ground_truth": true,
+            "prediction": false,
+            "factuality_score": 0.6
+        },
+        {
+            "claim": "張誠爲現任國立大學的教授，他也是一位政治人物。",
+            "ground_truth": true,
+            "prediction": false,
+            "factuality_score": 0.625
+        },
+        {
+            "claim": "至尊三十六計之偷天換日是1993年的香港喜劇片，由劉德華、梁家輝主演。",
+            "ground_truth": true,
+            "prediction": false,
+            "factuality_score": 0.75
+        },
+        {
+            "claim": "在香港九龍的大環，該地曾有中華電力公司建有大環發電廠。",
+            "ground_truth": true,
+            "prediction": false,
+            "factuality_score": 0
+        },
+        {
+            "claim": "明朝政治人物張璁爲浙江處州府麗水縣人。",
+            "ground_truth": true,
+            "prediction": false,
+            "factuality_score": 0.6875
+        },
+        {
+            "claim": "由杜納伊夫齊區管理的洛什基夫齊是位於東歐的共和制國家，其海拔高度爲295米。",
+            "ground_truth": true,
+            "prediction": false,
+            "factuality_score": 0
+        },
+        {
+            "claim": "臺灣客家文化館在臺灣苗栗縣銅鑼鄉，館區依照丘陵的地質而設計。",
+            "ground_truth": false,
+            "prediction": true,
+            "factuality_score": 0.8571428571428571
+        },
+        {
+            "claim": "天龍八部中的反派慕容復，名字的由來是因爲他想報復燕國。",
+            "ground_truth": false,
+            "prediction": true,
+            "factuality_score": 1.0
+        },
+        {
+            "claim": "人類演化是根據學說所做的假設，而在演化過程從南方猿人屬分支出來的人類指的是人科動物。",
+            "ground_truth": false,
+            "prediction": true,
+            "factuality_score": 0.95
+        },
+        {
+            "claim": "美國第一所軍校是西點軍校，畢業生必須在車廠中至少服役5年，而西點軍校也是美國愛國者聯盟盟校之一。",
+            "ground_truth": false,
+            "prediction": true,
+            "factuality_score": 0.9166666666666667
+        },
+        {
+            "claim": "天衛四由接近1:1的冰體水和岩石組成，因此地殼以下可能分成岩石內核與冰質外核。",
+            "ground_truth": true,
+            "prediction": false,
+            "factuality_score": 0.5
+        },
+        {
+            "claim": "2014年冬季奧林匹克運動會韓國代表團是由韓國所派出，共有71名運動員成爲代表團成員之一且參加13個項目。",
+            "ground_truth": true,
+            "prediction": false,
+            "factuality_score": 0.3666666666666667
+        },
+        {
+            "claim": "臺南市曾文社區大學座落於臺南市，招生的對象是外國人。",
+            "ground_truth": false,
+            "prediction": true,
+            "factuality_score": 1.0
+        },
+        {
+            "claim": "維拉華蒂 · 法吉林是前印尼女子羽球運動員，他於女單 、 女雙及混雙皆未有世界級水準。",
+            "ground_truth": false,
+            "prediction": true,
+            "factuality_score": 1.0
+        },
+        {
+            "claim": "位於愛琴海的多明尼加首都與最大都市爲聖多明哥，當地主要種族爲殖民者與當地原住民混血的後代，而多明尼加官方語言是西班牙語。",
+            "ground_truth": false,
+            "prediction": true,
+            "factuality_score": 1.0
+        },
+        {
+            "claim": "木衛二十四伊俄卡斯忒名字由來爲希臘神話中俄狄浦斯的母親和妻子 。",
+            "ground_truth": false,
+            "prediction": true,
+            "factuality_score": 1.0
+        },
+        {
+            "claim": "於1898年修建的諾茲克猶太會堂，現在是游泳池。",
+            "ground_truth": false,
+            "prediction": true,
+            "factuality_score": 1.0
+        },
+        {
+            "claim": "雖然有一些昆蟲有毒 ， 主要是爲了自我防衛及捕獵用途 ， 但大部分的蛛形綱都是無毒的 。",
+            "ground_truth": false,
+            "prediction": true,
+            "factuality_score": 0.8035714285714286
+        },
+        {
+            "claim": "劉建順於2001年上工，並於2005年3月29日因病辭世，享壽69歲。",
+            "ground_truth": false,
+            "prediction": true,
+            "factuality_score": 0.8888888888888888
+        },
+        {
+            "claim": "郭杲是宋朝的政治人物，曾逼光宗出院並扶持宋寧宗繼位。",
+            "ground_truth": false,
+            "prediction": true,
+            "factuality_score": 1.0
+        },
+        {
+            "claim": "臺灣最大的物理學組織第一位女性會長是吳健雄。",
+            "ground_truth": false,
+            "prediction": true,
+            "factuality_score": 1.0
+        },
+        {
+            "claim": "雨果年輕時推崇國家元首爲帝王，而後轉爲支持依法律選出國家的代表象徵。",
+            "ground_truth": true,
+            "prediction": false,
+            "factuality_score": 0.0
+        },
+        {
+            "claim": "《貴妃醉酒》描寫唐玄宗的貴妃楊玉環被明皇簽約，心情不悅，最後飲酒至醉悵然回宮。",
+            "ground_truth": false,
+            "prediction": true,
+            "factuality_score": 1.0
+        }
+    ]
+}
